@@ -1,3 +1,13 @@
+.topography {
+  background: url("../img/topography.svg");
+    width: 100%;
+    max-width: 580px;
+    height: 360px;
+    position: absolute;
+    margin-top: 40px;
+    border-radius: 40px;
+}
+
 /* 4-span animated snake-border effect */
 .snake-border-container {
   position: relative;
@@ -47,35 +57,96 @@
   background: linear-gradient(0deg, #facc15, #38bdf8, #facc15);
 }
 @keyframes snake-move-top {
-  0% { transform: translateX(-100%); opacity: 1; }
-  12.49% { transform: translateX(0); opacity: 1; }
-  24.99% { transform: translateX(100%); opacity: 1; }
-  25% { opacity: 0; }
- 100% { opacity: 0; }
+  0% {
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+  12.49% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  24.99% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes snake-move-right {
-  0%, 12.49% { opacity: 0; }
-  12.5% { transform: translateY(-100%); opacity: 1; }
-  24.99% { transform: translateY(0); opacity: 1; }
-  37.49% { transform: translateY(100%); opacity: 1; }
-  37.5% { opacity: 0; }
- 100% { opacity: 0; }
+  0%,
+  12.49% {
+    opacity: 0;
+  }
+  12.5% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  24.99% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  37.49% {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes snake-move-bottom {
-  0%, 24.99% { opacity: 0; }
-  25% { transform: translateX(100%); opacity: 1; }
-  37.49% { transform: translateX(0); opacity: 1; }
-  49.99% { transform: translateX(-100%); opacity: 1; }
-  50% { opacity: 0; }
- 100% { opacity: 0; }
+  0%,
+  24.99% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+  37.49% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  49.99% {
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes snake-move-left {
-  0%, 37.49% { opacity: 0; }
-  37.5% { transform: translateY(100%); opacity: 1; }
-  49.99% { transform: translateY(0); opacity: 1; }
-  62.49% { transform: translateY(-100%); opacity: 1; }
-  62.5% { opacity: 0; }
- 100% { opacity: 0; }
+  0%,
+  37.49% {
+    opacity: 0;
+  }
+  37.5% {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+  49.99% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  62.49% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes snake-draw {
@@ -83,7 +154,6 @@
     stroke-dashoffset: 0;
   }
 }
-
 
 .animate-stroke {
   /* fill: #ff0000; */
