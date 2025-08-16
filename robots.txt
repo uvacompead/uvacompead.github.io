@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://uvacompead.github.io/sitemap.xml
