@@ -80,6 +80,17 @@ const benefits = [
     desc: "Gemini Google para estudantes por 1 ano.",
     links: [{ url: "https://gemini.google/students", label: "Gemini Google" }],
   },
+  {
+    icon: <FaCrown className="text-4xl text-red-700 mb-2" />,
+    title: "Pilão Estudantes",
+    desc: "Descontos exclusivos Pilão para estudantes universitários.",
+    links: [
+      {
+        url: "https://www.pilao.com.br/estudantes",
+        label: "Pilão Estudantes",
+      },
+    ],
+  },
 ];
 
 import type { CarouselApi } from "./ui/carousel";
