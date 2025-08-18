@@ -65,8 +65,19 @@ const benefits = [
   },
   {
     icon: <FaGithub className="text-4xl text-black mb-2" />,
-    title: "GitHub Pro + DataCamp",
-    desc: "GitHub Pro com cursos pagos gratuitamente, ferramentas e DataCamp.",
+    title: "Figma Pro",
+    desc: "Acesso à licença do Figma Profissional, fornecendo mais espaço para criação e mais ferramentas.",
+    links: [
+      {
+        url: "https://www.figma.com/pt-br/education/",
+        label: "Figma Pro",
+      },
+    ],
+  },
+  {
+    icon: <FaGithub className="text-4xl text-black mb-2" />,
+    title: "GitHub Student",
+    desc: "Github para estudantes, fornece o copilot pro e 39+ assinaturas gratuitas além de outras funcionalidades.",
     links: [
       {
         url: "https://education.github.com/pack?sort=popularity&tag=Learn",
