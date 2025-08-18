@@ -8,8 +8,8 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 import { Card, CardContent } from "./ui/card";
-import { FaAws, FaGithub, FaMicrosoft, FaGoogle } from "react-icons/fa";
-import { FaCrown } from "react-icons/fa";
+import { FaAws, FaGithub, FaMicrosoft, FaGoogle, FaCrown } from "react-icons/fa";
+import { SiFigma } from "react-icons/si";
 
 import "@/styles/topography.css";
 import Bg from "./bg";
@@ -64,7 +64,7 @@ const benefits = [
     ],
   },
   {
-    icon: <FaGithub className="text-4xl text-black mb-2" />,
+    icon: <SiFigma className="text-4xl text-purple-600 mb-2" />,
     title: "Figma Pro",
     desc: "Acesso à licença do Figma Profissional, fornecendo mais espaço para criação e mais ferramentas.",
     links: [
