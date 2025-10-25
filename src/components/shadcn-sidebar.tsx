@@ -31,6 +31,10 @@ const sidebarLinks = [
             label: "Coursera (alguns gratuitos)",
             url: "https://www.coursera.org/browse",
           },
+          {
+            label: "The Linux Foundation (alguns gratuitos)",
+            url: "https://training.linuxfoundation.org/certification-catalog/?_sfm_price=0",
+          },
         ],
       },
       {
